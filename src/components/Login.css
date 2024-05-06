@@ -1,0 +1,119 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+}
+.App
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    color: white;
+    background: black;
+    height: 70  vh;
+    width: 25vw;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.X-logo
+{
+    width: 40px;
+    margin-top: 20px;
+}
+
+.container h2
+{
+    margin-bottom: 3px;
+}
+
+.google
+{
+    margin: 10px;
+    border-radius: 30px;
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+}
+.apple
+{
+    margin: 10px;
+    border-radius: 30px;
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.container button img
+{
+    width: 15px;
+    margin-right: 20px;
+}
+.container p
+{
+    font-size: 14px;
+    margin-bottom: 9px;
+    margin-top: 20px;
+
+}
+
+input
+{
+    width: 30%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.create
+{
+    height: 30px;
+    font-size: medium;
+    width: 300px;
+    background-color: rgb(25,155,240);
+    color: white;
+    border: 1px solid rgb(0,0,0,0,);
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+
+}
+h3
+{
+    transform: translate(-60px);
+}
+h6
+{
+    margin-bottom: 50px;
+    color:  rgb(113,118,123);
+}
+span
+{
+    color: rgb(29,155,240);
+}
+
+.signin
+{
+
+    width: 70%;
+    margin: 10px;
+    background-color: transparent;
+    color: rgb(29,155,240);
+    border-radius: 30px;
+    height: 5vh;
+    border: 1px solid rgb(83,100,113);
+}
